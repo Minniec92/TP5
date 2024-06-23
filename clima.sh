@@ -5,7 +5,7 @@ API_KEY="123456"
 CITY="Buenos Aires"
 
 # Hacer la solicitud a la API
-response=$(curl -s "http://api.weatherapi.com/v1/current.json?key=$API_KEY&q=$CITY")
+response=$(curl -s "http://api.weatherapi.com/")
 
 # Verificar si la solicitud fue exitosa
 if [[ $? -ne 0 ]]; then
